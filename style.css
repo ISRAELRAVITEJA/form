@@ -1,0 +1,98 @@
+body 
+ {
+  font-family: 'Rajdhani', sans-serif;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+{
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo-left img {
+  height: 60px;
+}
+
+.team-center {
+  flex-grow: 1;
+  text-align:left ;
+}
+.team-name {
+  flex-grow: 1;
+  text-align:center ;
+}
+
+.container {
+  background: white;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.file-upload {
+  margin-top: 20px;
+}
+
+.image-preview img,
+.file-preview embed {
+  display: block;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.file-name {
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
